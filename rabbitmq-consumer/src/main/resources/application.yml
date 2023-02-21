@@ -1,0 +1,13 @@
+server:
+  port: 8022
+spring:
+  application:
+    name: rabbitmq-consumer
+  # ??rabbitMq???
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    #??host ?????,??server??host
+#    virtual-host: JCcccHost
